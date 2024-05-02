@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiCustoViagem.Views.AddPedagio"
-             Title="Add Pedágio">
+             Title="Add Pedágio" BackgroundColor="White">
     <VerticalStackLayout>
         <Label Text="Local:"/>
         <Entry x:Name="txt_local"/>
@@ -10,6 +10,6 @@
         <Label Text="Valor:"/>
         <Entry x:Name="txt_valor"/>
 
-        <Button x:Name="btn_salvar" Text="Salvar" HorizontalOptions="Center" Margin="10" Clicked="btn_salvar_Clicked"/>
+        <Button x:Name="btn_salvar" Text="Salvar" HorizontalOptions="Center" Margin="10" Clicked="btn_salvar_Clicked" BackgroundColor="#9D1C1C" TextColor="White" />
     </VerticalStackLayout>
 </ContentPage>

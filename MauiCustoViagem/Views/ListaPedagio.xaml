@@ -23,7 +23,7 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        <Button x:Name="btn_somar" Text="Somar" HorizontalOptions="Center" Margin="10"/>
-        <Button x:Name="btn_AddNovo" Text="Add Novo" HorizontalOptions="Center" Margin="10"/>
+        <Button x:Name="btn_somar" Text="Somar" HorizontalOptions="Center" Margin="10" BackgroundColor="#9D1C1C" TextColor="White"/>
+        <Button x:Name="btn_AddNovo" Text="Add Novo" HorizontalOptions="Center" Margin="10" BackgroundColor="#9D1C1C" TextColor="White"/>
     </VerticalStackLayout>
 </ContentPage>
