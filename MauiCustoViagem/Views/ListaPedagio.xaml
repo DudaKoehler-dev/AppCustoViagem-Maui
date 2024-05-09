@@ -9,6 +9,7 @@
                 <Grid ColumnDefinitions="*, auto">
                     <Label Grid.Column="0" Text="Local:"/>
                     <Label Grid.Column="1" Text="Valor:"/>
+                  <? arrumar?>
                 </Grid>
 
             </ListView.Header>
@@ -26,4 +27,5 @@
         <Button x:Name="btn_somar" Text="Somar" HorizontalOptions="Center" Margin="10" BackgroundColor="#9D1C1C" TextColor="White"/>
         <Button x:Name="btn_AddNovo" Text="Add Novo" HorizontalOptions="Center" Margin="10" BackgroundColor="#9D1C1C" TextColor="White"/>
     </VerticalStackLayout>
+    
 </ContentPage>
